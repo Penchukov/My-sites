@@ -1,0 +1,90 @@
+ /* Стили для экранов 640px и меньше                                                      */
+@media only screen and (max-width : 650px) {
+    
+
+h1 {font-size: 3em;}	
+	
+h2 {font-size: 1.6em;}
+
+h3 {font-size: 1.2em;}
+
+iframe{
+	width: 100%;
+}
+
+body{border: 0;}
+    
+p, h2, h3{
+    padding: 0 10px;
+    box-sizing: border-box;}
+    
+.youtube-hint{
+    display: block;
+    background: url('../images/youtube.svg') no-repeat left;
+    padding: 0 0 0 33px!important;
+}
+	
+.cards{justify-content: center;}
+	
+.block_640, .w_block_640{
+	width: 100%;
+	box-sizing: border-box;
+    padding: 50px 0;
+}
+	
+	.block_640 h1, .w_block_640 h1{
+		text-align: center;
+	}
+    
+    	.logo{
+		width: 300px;
+	}
+
+	.img_in_work, .img_in_work_adaptive{
+		width: 100%;
+		height: auto;
+	}
+    
+    .close{
+        position: relative;
+        margin: 60px auto;
+        background-image: url("../images/Ic/72/Close_hover.svg");
+        box-sizing: border-box;
+        right: auto;
+        top: auto;
+    }
+    
+    .next_project, .next_project:hover{background-image: none; padding: 0; text-align: center;}
+    
+    .avatars {
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    
+    .avatar{
+        width: 220px;
+        height: 220px;
+    }
+    
+    .grid ul li{
+    width: 45%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    margin: 20px 2%;
+}
+    .hr{display: none;}
+    
+    .platform-list-large {
+    padding: 0 10px;
+    box-sizing: border-box;
+    }
+    
+    .cbp-fwslider nav span {
+	width: 30px;
+	height: 30px;
+    opacity: 1;
+}
+    .cbp-fwdots {bottom: 20px;}
+
+}
