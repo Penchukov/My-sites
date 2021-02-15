@@ -1,0 +1,25 @@
+.grid{width: 100%;}
+
+.grid ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0 10%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.grid ul li{
+    width: 20%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    margin: 20px 5%;
+}
+
+
+.grid ul li img{width: 100%;}
